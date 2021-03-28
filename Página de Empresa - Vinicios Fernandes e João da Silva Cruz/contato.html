@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <title>Contatos</title>
+</head>
+
+<header>
+    <h1 class="h1-centro">A Loja do Óleo</h1>
+
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Página Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br />
+</header>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Primeiro nome">
+                    </div>
+
+                    <div class="col-25">
+                        <label for="sobrenome">Sobrenome</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Último nome">
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Estado
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <a class="dropdown-item">Paraná</a>
+                        <a class="dropdown-item">Santa Catarina</a>
+                        <a class="dropdown-item">Rio Grande do Sul</a>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <label for="inputMensagem">Mensagem</label>
+                <textarea class="form-control" id="inputMensagem" rows="3"></textarea>
+            </div>
+
+            <br>
+
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+    <img src="./unnamed.png" alt="Mascote" class="img-mascote">
+</body>
+
+</html>
