@@ -2,4 +2,4 @@
 
 - Página de empresa com Bootstrap
 - Disciplina: Programação Web
-- Alunos: João da Silva Cruz e Vinicios Fernandes
+- Alunos: João Victor da Cruz e Vinicios Fernandes
